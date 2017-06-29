@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B669A8BF1F04AF0D00032BB6 /* ScanDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A8BE1F04AF0D00032BB6 /* ScanDetailViewController.swift */; };
+		B669A8C11F04AF3100032BB6 /* VisitingCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A8C01F04AF3100032BB6 /* VisitingCardTableViewCell.swift */; };
 		B6DCE1571F04196B0097C1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DCE1561F04196B0097C1D8 /* AppDelegate.swift */; };
 		B6DCE1591F04196B0097C1D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DCE1581F04196B0097C1D8 /* ViewController.swift */; };
 		B6DCE15C1F04196B0097C1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DCE15A1F04196B0097C1D8 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B669A8BE1F04AF0D00032BB6 /* ScanDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanDetailViewController.swift; sourceTree = "<group>"; };
+		B669A8C01F04AF3100032BB6 /* VisitingCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitingCardTableViewCell.swift; sourceTree = "<group>"; };
 		B6DCE1531F04196B0097C1D8 /* VisitingCardScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitingCardScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DCE1561F04196B0097C1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6DCE1581F04196B0097C1D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			children = (
 				B6DCE1561F04196B0097C1D8 /* AppDelegate.swift */,
 				B6DCE1581F04196B0097C1D8 /* ViewController.swift */,
+				B669A8BE1F04AF0D00032BB6 /* ScanDetailViewController.swift */,
+				B669A8C01F04AF3100032BB6 /* VisitingCardTableViewCell.swift */,
 				B6DCE15A1F04196B0097C1D8 /* Main.storyboard */,
 				B6DCE1601F04196B0097C1D8 /* Assets.xcassets */,
 				B6DCE1621F04196B0097C1D8 /* LaunchScreen.storyboard */,
@@ -265,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B669A8BF1F04AF0D00032BB6 /* ScanDetailViewController.swift in Sources */,
+				B669A8C11F04AF3100032BB6 /* VisitingCardTableViewCell.swift in Sources */,
 				B6DCE1591F04196B0097C1D8 /* ViewController.swift in Sources */,
 				B6DCE15F1F04196B0097C1D8 /* VisitingCardScanDemo.xcdatamodeld in Sources */,
 				B6DCE1571F04196B0097C1D8 /* AppDelegate.swift in Sources */,
@@ -520,6 +528,7 @@
 				B6DCE1801F04196B0097C1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6DCE1811F04196B0097C1D8 /* Build configuration list for PBXNativeTarget "VisitingCardScanDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +537,7 @@
 				B6DCE1831F04196B0097C1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6DCE1841F04196B0097C1D8 /* Build configuration list for PBXNativeTarget "VisitingCardScanDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +546,7 @@
 				B6DCE1861F04196B0097C1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -10,6 +10,10 @@ import UIKit
 
 class VisitingCardTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var at: UILabel!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var designation: UILabel!
+    @IBOutlet weak var contactNumber: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
