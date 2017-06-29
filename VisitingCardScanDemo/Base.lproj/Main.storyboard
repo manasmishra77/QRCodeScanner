@@ -237,10 +237,10 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ln-vt-uCh">
-                                <rect key="frame" x="86.5" y="354" width="201" height="36"/>
+                                <rect key="frame" x="72.5" y="354" width="229" height="36"/>
                                 <color key="backgroundColor" red="0.88062499999999999" green="0.19430094819999999" blue="0.65016955580000002" alpha="0.88806861619999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="SCAN NEW QR CODE">
+                                <state key="normal" title="   SCAN NEW QR CODE   ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -248,10 +248,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rr-rI-x9N">
-                                <rect key="frame" x="90.5" y="420" width="194" height="36"/>
+                                <rect key="frame" x="76.5" y="420" width="222" height="36"/>
                                 <color key="backgroundColor" red="0.88062499999999999" green="0.19430094819999999" blue="0.65016955580000002" alpha="0.88806861619999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="From Photos Library">
+                                <state key="normal" title="   From Photos Library   ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -286,6 +286,7 @@
                         <outlet property="name" destination="PhO-ym-Xao" id="Agf-Pn-MwV"/>
                         <outlet property="saveDetails" destination="cJ4-yn-JiI" id="q3z-rt-bHD"/>
                         <outlet property="scanFromPhotos" destination="1rr-rI-x9N" id="yBq-6g-v3g"/>
+                        <outlet property="scanNew" destination="7ln-vt-uCh" id="p7O-8R-4S9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iN1-eg-65F" userLabel="First Responder" sceneMemberID="firstResponder"/>

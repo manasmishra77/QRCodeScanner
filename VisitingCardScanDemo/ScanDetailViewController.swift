@@ -11,6 +11,7 @@ import AVFoundation
 
 class ScanDetailViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var scanNew: UIButton!
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var designation: UILabel!
     @IBOutlet weak var company: UILabel!
@@ -27,6 +28,8 @@ class ScanDetailViewController: UIViewController, AVCaptureMetadataOutputObjects
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        scanFromPhotos.layer.cornerRadius = 12
+        scanNew.layer.cornerRadius = 12
     }
 
     override func didReceiveMemoryWarning() {
